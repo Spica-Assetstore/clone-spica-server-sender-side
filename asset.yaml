@@ -1,0 +1,4 @@
+name: Clone Server - Sender
+description: This asset is the sender side of the Clone Server operation
+configs: []
+url: "https://github.com/Spica-Assetstore/clone-spica-server-sender-side.git"
