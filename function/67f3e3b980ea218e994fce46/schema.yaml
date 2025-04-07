@@ -1,0 +1,23 @@
+_id: 67f3e3b980ea218e994fce46
+name: Clone Server - Sender Side
+language: javascript
+timeout: 300
+memoryLimit: 100
+triggers:
+  sender:
+    type: http
+    active: true
+    options:
+      method: Get
+      path: /sender
+      preflight: true
+  senderDashboard:
+    type: http
+    active: true
+    options:
+      method: Get
+      path: /senderDashboard
+      preflight: true
+env_vars:
+  - 67f3e2efeed1898d95d1aff3
+  - 67f3e31c3f36bc8df8b831e7

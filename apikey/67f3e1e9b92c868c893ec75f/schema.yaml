@@ -1,0 +1,7 @@
+_id: 67f3e1e9b92c868c893ec75f
+name: Secret Api Key For Sender Side
+active: true
+key: 135jfds0em976de2e
+policies:
+  - BucketFullAccess
+  - FunctionFullAccess

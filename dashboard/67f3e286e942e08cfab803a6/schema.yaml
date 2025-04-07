@@ -1,0 +1,8 @@
+_id: 67f3e286e942e08cfab803a6
+name: Sender
+icon: swap_vert
+components:
+  - name: Export
+    url: api:/fn-execute/senderDashboard
+    type: card
+    ratio: 2/2
